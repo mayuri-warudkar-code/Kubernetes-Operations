@@ -1,4 +1,4 @@
-Objective
+Objective: 
 Deploy an NGINX server on Kubernetes using the following components:
 
 Deployment: To manage the application replicas.
@@ -13,9 +13,9 @@ Directory Structure:
 
 
 Kubernetes CLI Commands
-1. Create the Deployment
+1. Create the Deployment: 
    kubectl apply -f deployment.yaml
-2. Create the Service
+2. Create the Service: 
    kubectl apply -f service.yaml
-3. Create the Ingress
+3. Create the Ingress: 
    kubectl apply -f ingress.yaml
